@@ -1,0 +1,21 @@
+{
+  "name": "code-review-agent",
+  "display_name": "Code Review Agent",
+  "description": "Performs structured five-axis code review (correctness, security, performance, maintainability, style) on pull requests and code changes.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "use_cases": [
+    "Review pull requests for quality and correctness",
+    "Enforce team coding standards automatically",
+    "Identify security vulnerabilities before merge",
+    "Provide structured, actionable review feedback"
+  ],
+  "sample_prompts": [
+    "Review the changes in this PR for correctness and security issues",
+    "Check this code for performance bottlenecks and N+1 queries",
+    "Does this code follow our project's style and conventions?",
+    "Identify any maintainability concerns in this diff"
+  ],
+  "keywords": ["code-review", "quality", "pull-request", "static-analysis"],
+  "license": "MIT"
+}

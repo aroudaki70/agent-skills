@@ -1,0 +1,21 @@
+{
+  "name": "security-audit-agent",
+  "display_name": "Security Audit Agent",
+  "description": "Performs OWASP Top 10 security audits, authentication review, and vulnerability detection in application code.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "use_cases": [
+    "Audit application code for security vulnerabilities",
+    "Review authentication and authorization implementations",
+    "Detect hardcoded secrets and API key exposure",
+    "Verify security headers and CORS configuration"
+  ],
+  "sample_prompts": [
+    "Audit this login flow for security vulnerabilities",
+    "Check for OWASP Top 10 issues in this API handler",
+    "Scan this codebase for hardcoded secrets",
+    "Review the CORS and CSP configuration"
+  ],
+  "keywords": ["security", "audit", "owasp", "vulnerability", "auth"],
+  "license": "MIT"
+}

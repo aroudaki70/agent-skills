@@ -1,0 +1,15 @@
+# Agent Skills Project
+
+This project contains production-grade engineering skills for AI coding agents.
+
+## Structure
+- `skills/` - Skill definitions with SKILL.md and metadata.json
+- `agents/` - Specialist agent persona configs
+- `references/` - Testing, security, performance, accessibility checklists
+- `hooks/` - Session lifecycle hooks
+- `docs/` - Documentation
+
+## Commands
+- `/review` - Run code review skill
+- `/test` - Run test agent
+- `/security` - Run security audit

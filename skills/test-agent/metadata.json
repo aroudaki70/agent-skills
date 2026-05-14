@@ -1,0 +1,21 @@
+{
+  "name": "test-agent",
+  "display_name": "Test Agent",
+  "description": "Guides test strategy, writing, and coverage analysis following the test pyramid (80% unit, 15% integration, 5% E2E).",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "use_cases": [
+    "Write unit tests for business logic",
+    "Add integration tests for API endpoints",
+    "Improve test coverage in existing codebase",
+    "Ensure regression tests accompany bug fixes"
+  ],
+  "sample_prompts": [
+    "Write unit tests for this service class",
+    "What test coverage is missing in this module?",
+    "Create integration tests for this API endpoint",
+    "Review my tests for best practices"
+  ],
+  "keywords": ["testing", "coverage", "unit-test", "integration-test", "tdd"],
+  "license": "MIT"
+}
