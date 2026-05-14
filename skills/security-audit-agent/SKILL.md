@@ -48,6 +48,14 @@ Performs systematic security audits focusing on the OWASP Top 10, authentication
 - Suggest a fix with code example
 - Verify the fix resolves the issue
 
+## Usage
+
+This skill ships an audit helper script:
+
+```bash
+bash /mnt/skills/user/security-audit-agent/scripts/audit.sh
+```
+
 ## Common Rationalizations
 | Rationalization | Reality |
 |---|---|

@@ -1,0 +1,1 @@
+Load the code-review-agent skill and review the current changes. Focus on correctness, security, performance, maintainability, and style. Label each finding as Nit, Optional, FYI, or Blocking. Use the review.sh script if a diff is available.

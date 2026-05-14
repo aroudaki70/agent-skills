@@ -37,6 +37,14 @@ Provides a systematic approach to testing: test pyramid guidance, test structure
 - Check coverage report (aim for 80%+)
 - Review untested branches
 
+## Usage
+
+This skill ships a test runner helper:
+
+```bash
+bash /mnt/skills/user/test-agent/scripts/run-tests.sh
+```
+
 ## Common Rationalizations
 | Rationalization | Reality |
 |---|---|

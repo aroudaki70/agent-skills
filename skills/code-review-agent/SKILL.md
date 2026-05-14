@@ -40,6 +40,14 @@ Performs structured code review across five key axes: correctness, security, per
 - Check that tests still pass
 - Approve or request changes
 
+## Usage
+
+This skill ships a review helper script:
+
+```bash
+git diff | bash /mnt/skills/user/code-review-agent/scripts/review.sh
+```
+
 ## Common Rationalizations
 | Rationalization | Reality |
 |---|---|
