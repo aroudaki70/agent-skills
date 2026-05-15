@@ -19,9 +19,20 @@ A collection of agent skills for AI coding assistants. Skills are packaged instr
 
 | Intent | Skill |
 |---|---|
+| Product discovery / pre-spec validation under uncertainty | `design-sprint` |
 | Code review | `code-review-agent` |
 | Writing tests | `test-agent` |
 | Security audit | `security-audit-agent` |
+
+### Lifecycle Mapping
+
+- DISCOVER → `design-sprint` (when uncertainty is high and a target direction must be validated)
+- DEFINE → `spec-driven-development`
+- PLAN → `planning-and-task-breakdown`
+- BUILD → `incremental-implementation` + `test-driven-development`
+- VERIFY → `debugging-and-error-recovery`
+- REVIEW → `code-review-and-quality`
+- SHIP → `shipping-and-launch`
 
 ### Orchestration: Personas, Skills, and Commands
 
