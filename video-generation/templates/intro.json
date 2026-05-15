@@ -1,0 +1,14 @@
+{
+  "name": "intro",
+  "description": "Video intro template with title reveal",
+  "script": "Welcome to {title} - {subtitle}",
+  "visual_prompt": "Cinematic title sequence with dramatic lighting, {color_scheme} color palette, {motion} camera movement",
+  "text_overlay": "{title}",
+  "style": "cinematic",
+  "duration": 5,
+  "elements": {
+    "background": "abstract geometric shapes",
+    "music": "upbeat corporate",
+    "effects": "fade-in, text reveal"
+  }
+}
