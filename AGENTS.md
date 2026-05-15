@@ -20,6 +20,7 @@ A collection of agent skills for AI coding assistants. Skills are packaged instr
 | Intent | Skill |
 |---|---|
 | Product discovery / pre-spec validation under uncertainty | `design-sprint` |
+| SEO audit / keyword optimization / content optimization | `seo-optimization-agent` |
 | Code review | `code-review-agent` |
 | Writing tests | `test-agent` |
 | Security audit | `security-audit-agent` |

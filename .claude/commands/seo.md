@@ -1,0 +1,1 @@
+Load the seo-optimization-agent skill. Perform a full SEO audit on the provided content, generate a keyword strategy, and create an optimized HTML version. Use the seo-audit.py and generate-html.py scripts for automated analysis.

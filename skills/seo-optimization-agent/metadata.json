@@ -1,0 +1,23 @@
+{
+  "name": "seo-optimization-agent",
+  "display_name": "SEO Optimization Agent",
+  "description": "Two-pass SEO agent that audits blog content and generates optimized HTML. Integrates with Notion via webhook.",
+  "version": "1.0.0",
+  "author": "aroudaki70",
+  "use_cases": [
+    "Optimize blog posts for organic search performance",
+    "Generate keyword strategies for content marketing",
+    "Audit existing content for SEO gaps",
+    "Create SEO-optimized HTML from raw content",
+    "Integrate with Notion for automated content workflows"
+  ],
+  "sample_prompts": [
+    "Audit this blog post for SEO and give me a full optimization report",
+    "Generate a keyword strategy for this article",
+    "Create an optimized HTML version of this post with schema markup",
+    "Check my content for SEO gaps and suggest improvements",
+    "Set up a Notion webhook for automated SEO optimization"
+  ],
+  "keywords": ["seo", "keyword-optimization", "content-marketing", "notion-integration", "html-generation"],
+  "license": "MIT"
+}
