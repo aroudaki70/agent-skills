@@ -1,5 +1,2 @@
-# Auto det#ect text files and preform LF normalization
-* text-auto
-ect text files and perform LF normalization
-* text-auto/complete 
-/initial config/initial_config.yaml text-auto
+# Auto detect text files and perform LF normalization
+* text=auto
