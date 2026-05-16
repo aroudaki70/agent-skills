@@ -27,13 +27,12 @@ A collection of agent skills for AI coding assistants. Skills are packaged instr
 
 ### Lifecycle Mapping
 
-- DISCOVER → `design-sprint` (when uncertainty is high and a target direction must be validated)
-- DEFINE → `spec-driven-development`
-- PLAN → `planning-and-task-breakdown`
-- BUILD → `incremental-implementation` + `test-driven-development`
-- VERIFY → `debugging-and-error-recovery`
-- REVIEW → `code-review-and-quality`
-- SHIP → `shipping-and-launch`
+- DISCOVER → `design-sprint` (high uncertainty, validate direction before building)
+- DEFINE → `design-sprint` → `seo-optimization-agent` (for content strategy)
+- BUILD → `test-agent` (test-driven development)
+- VERIFY → `code-review-agent` + `security-audit-agent`
+- OPTIMIZE → `seo-optimization-agent` (content and search optimization)
+- SHIP → `code-review-agent` (final review pass)
 
 ### Orchestration: Personas, Skills, and Commands
 

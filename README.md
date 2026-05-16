@@ -4,48 +4,15 @@ Production-grade engineering skills for AI coding agents.
 
 Skills encode the workflows, quality gates, and best practices that senior engineers use when building software.
 
-## Project Structure
+## Commands
 
-```
-agent-skills/
-├── skills/                            # Skill definitions
-│   ├── design-sprint/                 # Accelerated discovery sprint (5-phase)
-│   │   ├── SKILL.md
-│   │   └── nudges.md
-│   ├── code-review-agent/             # Systematic code review across five axes
-│   │   ├── SKILL.md
-│   │   ├── metadata.json
-│   │   └── scripts/
-│   ├── test-agent/                    # Test strategy and coverage analysis
-│   │   ├── SKILL.md
-│   │   ├── metadata.json
-│   │   └── scripts/
-│   └── security-audit-agent/          # OWASP Top 10 security auditing
-│       ├── SKILL.md
-│       ├── metadata.json
-│       └── scripts/
-├── agents/                            # Specialist agent personas
-│   ├── code-reviewer.md
-│   ├── security-auditor.md
-│   └── test-engineer.md
-├── references/                        # Supplementary checklists
-│   ├── testing-patterns.md
-│   ├── security-checklist.md
-│   ├── performance-checklist.md
-│   ├── accessibility-checklist.md
-│   └── orchestration-patterns.md
-├── hooks/                             # Session lifecycle hooks
-├── docs/                              # Documentation
-│   └── skill-anatomy.md
-├── .claude/commands/                  # Slash commands
-├── .gemini/commands/                  # Gemini CLI commands
-├── plugin.json                        # Claude Code plugin manifest
-├── marketplace.json                   # Plugin marketplace metadata
-├── AGENTS.md                          # AI agent guidance
-├── CONTRIBUTING.md                    # Contribution guidelines
-├── CLAUDE.md                          # Claude Code configuration
-└── remote-config/                     # Remote development setup
-```
+| What you're doing | Command | Skill |
+|---|---|---|
+| Discover what to build | `/discover` | `design-sprint` |
+| Review code before merge | `/review` | `code-review-agent` |
+| Write and verify tests | `/test` | `test-agent` |
+| Audit security | `/security` | `security-audit-agent` |
+| Optimize content for search | `/seo` | `seo-optimization-agent` |
 
 ## Skills
 
@@ -55,22 +22,78 @@ agent-skills/
 | `code-review-agent` | Five-axis code review (correctness, security, performance, maintainability, style) | Reviewing PRs, assessing code quality |
 | `test-agent` | Test strategy, writing, and coverage following the test pyramid | Writing tests, fixing bugs, improving coverage |
 | `security-audit-agent` | OWASP Top 10 security audits, auth review, vulnerability detection | Auditing security, reviewing auth flows |
+| `seo-optimization-agent` | SEO audit, keyword strategy, optimized HTML generation with Notion integration | Content optimization, search ranking, blog posts |
+
+## Project Structure
+
+```
+agent-skills/
+├── skills/              # Skill definitions (SKILL.md + metadata.json + scripts/)
+├── agents/              # Specialist agent personas (.md)
+├── references/          # Supplementary checklists
+├── hooks/               # Session lifecycle hooks
+├── docs/                # Documentation & setup guides
+├── .claude/commands/    # Slash commands for Claude Code
+├── .gemini/commands/    # Slash commands for Gemini CLI
+├── plugin.json          # Claude Code plugin manifest
+├── marketplace.json     # Plugin marketplace metadata
+├── AGENTS.md            # AI agent guidance & intent mapping
+├── CLAUDE.md            # Claude Code configuration
+└── remote-config/       # Remote development setup
+```
+
+## How Skills Work
+
+Every skill follows a consistent anatomy:
+
+```yaml
+---
+name: skill-name
+description: What it does + when to use it
+---
+
+# Skill Title
+
+## Overview
+What this skill does and why it matters
+
+## Process
+Step-by-step workflow with numbered steps and checkpoints
+
+## Common Rationalizations
+| Excuse | Reality |
+|---|---|
+
+## Red Flags
+Warning signs that the skill is being violated
+
+## Verification
+Checklist of exit criteria with evidence requirements
+```
+
+## Quick Start
+
+```bash
+# Clone and explore
+git clone https://github.com/aroudaki70/agent-skills.git
+cd agent-skills
+
+# Browse available skills
+ls skills/
+cat skills/code-review-agent/SKILL.md
+```
 
 ## Workflow
 
-When uncertainty is high at project start:
-
+High-uncertainty project start:
 ```
-Discovery: design-sprint → spec-driven-development → planning-and-task-breakdown
+DISCOVER → design-sprint → BUILD (test-agent) → VERIFY (code-review) → SHIP
 ```
 
-## Quick Start
-
-Each skill contains a `SKILL.md` with a structured workflow, common rationalizations table, and verification checklist.
-
-## Quick Start
-
-Each skill contains a `SKILL.md` with a structured workflow, common rationalizations table, and verification checklist.
+Content optimization:
+```
+OPTIMIZE → seo-optimization-agent → VERIFY → PUBLISH
+```
 
 ## License
 
